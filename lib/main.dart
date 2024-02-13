@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Adri',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
             .copyWith(secondary: Colors.cyan),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Aprendiendo Flutter'),
     );
   }
 }
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // the App.build method, and use it to set our appbar title.
           title: Center(
             child: Text(
-              'Hola Jorge',
+              'UpIntelligence',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 20,
